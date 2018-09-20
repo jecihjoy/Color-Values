@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CardDetailsActivity">
+    <com.google.developer.colorvalue.ui.ColorView
+        android:id="@+id/color_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/color_view_height" />
+    <TextView
+        android:id="@+id/color_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color name"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="@dimen/color_text"
+        android:layout_marginTop="@dimen/color_name_marginTop"/>
+    <TextView
+        android:id="@+id/hex_tv"
+        android:text="#sddsf34"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
